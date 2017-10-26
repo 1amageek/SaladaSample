@@ -17,7 +17,6 @@
 		126CA20C1FA173F00018E6C6 /* User-Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA20B1FA173F00018E6C6 /* User-Item.swift */; };
 		126CA20E1FA174E00018E6C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 126CA20D1FA174E00018E6C6 /* GoogleService-Info.plist */; };
 		126CA2101FA175D80018E6C6 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA20F1FA175D80018E6C6 /* UserViewController.swift */; };
-		126CA2121FA175E80018E6C6 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA2111FA175E80018E6C6 /* ItemViewController.swift */; };
 		126CA2141FA175FA0018E6C6 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA2131FA175FA0018E6C6 /* UsersViewController.swift */; };
 		126CA2161FA1795F0018E6C6 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA2151FA1795F0018E6C6 /* ItemsViewController.swift */; };
 		B1E16EE98581659AF31E21A6 /* Pods_SaladaSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B815E4DBA2E8750E6D0EA076 /* Pods_SaladaSample.framework */; };
@@ -36,7 +35,6 @@
 		126CA20B1FA173F00018E6C6 /* User-Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User-Item.swift"; sourceTree = "<group>"; };
 		126CA20D1FA174E00018E6C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		126CA20F1FA175D80018E6C6 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
-		126CA2111FA175E80018E6C6 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		126CA2131FA175FA0018E6C6 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		126CA2151FA1795F0018E6C6 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		1A510F163782DADC49B95B35 /* Pods-SaladaSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaladaSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaladaSample/Pods-SaladaSample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 				126CA20F1FA175D80018E6C6 /* UserViewController.swift */,
 				126CA2131FA175FA0018E6C6 /* UsersViewController.swift */,
 				126CA2151FA1795F0018E6C6 /* ItemsViewController.swift */,
-				126CA2111FA175E80018E6C6 /* ItemViewController.swift */,
 				126CA2051FA1738E0018E6C6 /* User.swift */,
 				126CA2071FA173B40018E6C6 /* Item.swift */,
 				126CA20B1FA173F00018E6C6 /* User-Item.swift */,
@@ -248,7 +245,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				126CA2121FA175E80018E6C6 /* ItemViewController.swift in Sources */,
 				126CA20C1FA173F00018E6C6 /* User-Item.swift in Sources */,
 				126CA2101FA175D80018E6C6 /* UserViewController.swift in Sources */,
 				126CA2081FA173B40018E6C6 /* Item.swift in Sources */,
