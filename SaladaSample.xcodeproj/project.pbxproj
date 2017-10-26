@@ -19,6 +19,8 @@
 		126CA2101FA175D80018E6C6 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA20F1FA175D80018E6C6 /* UserViewController.swift */; };
 		126CA2141FA175FA0018E6C6 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA2131FA175FA0018E6C6 /* UsersViewController.swift */; };
 		126CA2161FA1795F0018E6C6 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA2151FA1795F0018E6C6 /* ItemsViewController.swift */; };
+		126CA21A1FA183C00018E6C6 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA2191FA183C00018E6C6 /* ItemTableViewCell.swift */; };
+		126CA21D1FA1844C0018E6C6 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA21C1FA1844C0018E6C6 /* UserTableViewCell.swift */; };
 		B1E16EE98581659AF31E21A6 /* Pods_SaladaSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B815E4DBA2E8750E6D0EA076 /* Pods_SaladaSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		126CA20F1FA175D80018E6C6 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		126CA2131FA175FA0018E6C6 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		126CA2151FA1795F0018E6C6 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		126CA2191FA183C00018E6C6 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		126CA21C1FA1844C0018E6C6 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		1A510F163782DADC49B95B35 /* Pods-SaladaSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaladaSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaladaSample/Pods-SaladaSample.debug.xcconfig"; sourceTree = "<group>"; };
 		B815E4DBA2E8750E6D0EA076 /* Pods_SaladaSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaladaSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5224EA7CD183A30434B94A /* Pods-SaladaSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaladaSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaladaSample/Pods-SaladaSample.release.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 				120588F91F97101C00614ADF /* ViewController.swift */,
 				126CA20F1FA175D80018E6C6 /* UserViewController.swift */,
 				126CA2131FA175FA0018E6C6 /* UsersViewController.swift */,
+				126CA21C1FA1844C0018E6C6 /* UserTableViewCell.swift */,
+				126CA2191FA183C00018E6C6 /* ItemTableViewCell.swift */,
 				126CA2151FA1795F0018E6C6 /* ItemsViewController.swift */,
 				126CA2051FA1738E0018E6C6 /* User.swift */,
 				126CA2071FA173B40018E6C6 /* Item.swift */,
@@ -247,7 +253,9 @@
 			files = (
 				126CA20C1FA173F00018E6C6 /* User-Item.swift in Sources */,
 				126CA2101FA175D80018E6C6 /* UserViewController.swift in Sources */,
+				126CA21A1FA183C00018E6C6 /* ItemTableViewCell.swift in Sources */,
 				126CA2081FA173B40018E6C6 /* Item.swift in Sources */,
+				126CA21D1FA1844C0018E6C6 /* UserTableViewCell.swift in Sources */,
 				126CA2161FA1795F0018E6C6 /* ItemsViewController.swift in Sources */,
 				120588FA1F97101C00614ADF /* ViewController.swift in Sources */,
 				126CA2141FA175FA0018E6C6 /* UsersViewController.swift in Sources */,

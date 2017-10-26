@@ -52,9 +52,33 @@ class UsersViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "UITableViewCell", for: indexPath)
-        cell.textLabel?.text = self.dataSource?.objects[indexPath.item].name
+        let cell: UserTableViewCell = tableView.dequeueReusableCell(withIdentifier: "UserTableViewCell", for: indexPath) as! UserTableViewCell
+
+        /**
+
+         データソースからのデータの取得の方法には以下の2種類あります。
+         - 同期的にデータを取得する方法
+         - 非同期にデータを取得する方法
+         必要に応じてコメントアウトを削除してください。
+
+        */
+        // 現在の値を一度だけ取得
+//        cell.textLabel?.text = self.dataSource?.objects[indexPath.item].name
+
+        // 非同期的に監視し続ける
+        cell.disposer = self.dataSource?.observeObject(at: indexPath.item) { (user) in
+            guard let user: User = user else {
+                return
+            }
+            cell.textLabel?.text = user.name
+        }
         return cell
+    }
+
+    override func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        if let cell: UserTableViewCell = cell as? UserTableViewCell {
+            cell.disposer?.dispose()
+        }
     }
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
