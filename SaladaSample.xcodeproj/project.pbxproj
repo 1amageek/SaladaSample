@@ -12,15 +12,9 @@
 		120588FD1F97101C00614ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120588FB1F97101C00614ADF /* Main.storyboard */; };
 		120588FF1F97101C00614ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120588FE1F97101C00614ADF /* Assets.xcassets */; };
 		120589021F97101C00614ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120589001F97101C00614ADF /* LaunchScreen.storyboard */; };
-		12B5464E1F97120A000C4DFE /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B546451F971209000C4DFE /* Object.swift */; };
-		12B5464F1F97120A000C4DFE /* Relation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B546461F971209000C4DFE /* Relation.swift */; };
-		12B546501F97120A000C4DFE /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B546471F97120A000C4DFE /* Base.swift */; };
-		12B546511F97120A000C4DFE /* Referenceable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B546481F97120A000C4DFE /* Referenceable.swift */; };
-		12B546521F97120A000C4DFE /* SaladaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B546491F97120A000C4DFE /* SaladaApp.swift */; };
-		12B546531F97120A000C4DFE /* Disposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B5464A1F97120A000C4DFE /* Disposer.swift */; };
-		12B546541F97120A000C4DFE /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B5464B1F97120A000C4DFE /* DataSource.swift */; };
-		12B546551F97120A000C4DFE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B5464C1F97120A000C4DFE /* File.swift */; };
-		12B546561F97120A000C4DFE /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B5464D1F97120A000C4DFE /* Package.swift */; };
+		126CA2061FA1738E0018E6C6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA2051FA1738E0018E6C6 /* User.swift */; };
+		126CA2081FA173B40018E6C6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA2071FA173B40018E6C6 /* Item.swift */; };
+		126CA20C1FA173F00018E6C6 /* User-Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA20B1FA173F00018E6C6 /* User-Item.swift */; };
 		B1E16EE98581659AF31E21A6 /* Pods_SaladaSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B815E4DBA2E8750E6D0EA076 /* Pods_SaladaSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,15 +26,9 @@
 		120588FE1F97101C00614ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		120589011F97101C00614ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		120589031F97101C00614ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12B546451F971209000C4DFE /* Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
-		12B546461F971209000C4DFE /* Relation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Relation.swift; sourceTree = "<group>"; };
-		12B546471F97120A000C4DFE /* Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
-		12B546481F97120A000C4DFE /* Referenceable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Referenceable.swift; sourceTree = "<group>"; };
-		12B546491F97120A000C4DFE /* SaladaApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaladaApp.swift; sourceTree = "<group>"; };
-		12B5464A1F97120A000C4DFE /* Disposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Disposer.swift; sourceTree = "<group>"; };
-		12B5464B1F97120A000C4DFE /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
-		12B5464C1F97120A000C4DFE /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		12B5464D1F97120A000C4DFE /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		126CA2051FA1738E0018E6C6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		126CA2071FA173B40018E6C6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		126CA20B1FA173F00018E6C6 /* User-Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User-Item.swift"; sourceTree = "<group>"; };
 		1A510F163782DADC49B95B35 /* Pods-SaladaSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaladaSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaladaSample/Pods-SaladaSample.debug.xcconfig"; sourceTree = "<group>"; };
 		B815E4DBA2E8750E6D0EA076 /* Pods_SaladaSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaladaSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5224EA7CD183A30434B94A /* Pods-SaladaSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaladaSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaladaSample/Pods-SaladaSample.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,15 +69,9 @@
 			children = (
 				120588F71F97101C00614ADF /* AppDelegate.swift */,
 				120588F91F97101C00614ADF /* ViewController.swift */,
-				12B546471F97120A000C4DFE /* Base.swift */,
-				12B5464B1F97120A000C4DFE /* DataSource.swift */,
-				12B5464A1F97120A000C4DFE /* Disposer.swift */,
-				12B5464C1F97120A000C4DFE /* File.swift */,
-				12B546451F971209000C4DFE /* Object.swift */,
-				12B5464D1F97120A000C4DFE /* Package.swift */,
-				12B546481F97120A000C4DFE /* Referenceable.swift */,
-				12B546461F971209000C4DFE /* Relation.swift */,
-				12B546491F97120A000C4DFE /* SaladaApp.swift */,
+				126CA2051FA1738E0018E6C6 /* User.swift */,
+				126CA2071FA173B40018E6C6 /* Item.swift */,
+				126CA20B1FA173F00018E6C6 /* User-Item.swift */,
 				120588FB1F97101C00614ADF /* Main.storyboard */,
 				120588FE1F97101C00614ADF /* Assets.xcassets */,
 				120589001F97101C00614ADF /* LaunchScreen.storyboard */,
@@ -250,17 +232,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				126CA20C1FA173F00018E6C6 /* User-Item.swift in Sources */,
+				126CA2081FA173B40018E6C6 /* Item.swift in Sources */,
 				120588FA1F97101C00614ADF /* ViewController.swift in Sources */,
-				12B5464E1F97120A000C4DFE /* Object.swift in Sources */,
-				12B546531F97120A000C4DFE /* Disposer.swift in Sources */,
-				12B546541F97120A000C4DFE /* DataSource.swift in Sources */,
-				12B546501F97120A000C4DFE /* Base.swift in Sources */,
-				12B546551F97120A000C4DFE /* File.swift in Sources */,
-				12B546511F97120A000C4DFE /* Referenceable.swift in Sources */,
-				12B546521F97120A000C4DFE /* SaladaApp.swift in Sources */,
 				120588F81F97101C00614ADF /* AppDelegate.swift in Sources */,
-				12B546561F97120A000C4DFE /* Package.swift in Sources */,
-				12B5464F1F97120A000C4DFE /* Relation.swift in Sources */,
+				126CA2061FA1738E0018E6C6 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
