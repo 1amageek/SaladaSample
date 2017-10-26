@@ -15,6 +15,11 @@
 		126CA2061FA1738E0018E6C6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA2051FA1738E0018E6C6 /* User.swift */; };
 		126CA2081FA173B40018E6C6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA2071FA173B40018E6C6 /* Item.swift */; };
 		126CA20C1FA173F00018E6C6 /* User-Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA20B1FA173F00018E6C6 /* User-Item.swift */; };
+		126CA20E1FA174E00018E6C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 126CA20D1FA174E00018E6C6 /* GoogleService-Info.plist */; };
+		126CA2101FA175D80018E6C6 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA20F1FA175D80018E6C6 /* UserViewController.swift */; };
+		126CA2121FA175E80018E6C6 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA2111FA175E80018E6C6 /* ItemViewController.swift */; };
+		126CA2141FA175FA0018E6C6 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA2131FA175FA0018E6C6 /* UsersViewController.swift */; };
+		126CA2161FA1795F0018E6C6 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126CA2151FA1795F0018E6C6 /* ItemsViewController.swift */; };
 		B1E16EE98581659AF31E21A6 /* Pods_SaladaSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B815E4DBA2E8750E6D0EA076 /* Pods_SaladaSample.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +34,11 @@
 		126CA2051FA1738E0018E6C6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		126CA2071FA173B40018E6C6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		126CA20B1FA173F00018E6C6 /* User-Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User-Item.swift"; sourceTree = "<group>"; };
+		126CA20D1FA174E00018E6C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		126CA20F1FA175D80018E6C6 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		126CA2111FA175E80018E6C6 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		126CA2131FA175FA0018E6C6 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		126CA2151FA1795F0018E6C6 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		1A510F163782DADC49B95B35 /* Pods-SaladaSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaladaSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaladaSample/Pods-SaladaSample.debug.xcconfig"; sourceTree = "<group>"; };
 		B815E4DBA2E8750E6D0EA076 /* Pods_SaladaSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaladaSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5224EA7CD183A30434B94A /* Pods-SaladaSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaladaSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaladaSample/Pods-SaladaSample.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,9 +79,14 @@
 			children = (
 				120588F71F97101C00614ADF /* AppDelegate.swift */,
 				120588F91F97101C00614ADF /* ViewController.swift */,
+				126CA20F1FA175D80018E6C6 /* UserViewController.swift */,
+				126CA2131FA175FA0018E6C6 /* UsersViewController.swift */,
+				126CA2151FA1795F0018E6C6 /* ItemsViewController.swift */,
+				126CA2111FA175E80018E6C6 /* ItemViewController.swift */,
 				126CA2051FA1738E0018E6C6 /* User.swift */,
 				126CA2071FA173B40018E6C6 /* Item.swift */,
 				126CA20B1FA173F00018E6C6 /* User-Item.swift */,
+				126CA20D1FA174E00018E6C6 /* GoogleService-Info.plist */,
 				120588FB1F97101C00614ADF /* Main.storyboard */,
 				120588FE1F97101C00614ADF /* Assets.xcassets */,
 				120589001F97101C00614ADF /* LaunchScreen.storyboard */,
@@ -160,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				120589021F97101C00614ADF /* LaunchScreen.storyboard in Resources */,
+				126CA20E1FA174E00018E6C6 /* GoogleService-Info.plist in Resources */,
 				120588FF1F97101C00614ADF /* Assets.xcassets in Resources */,
 				120588FD1F97101C00614ADF /* Main.storyboard in Resources */,
 			);
@@ -232,9 +248,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				126CA2121FA175E80018E6C6 /* ItemViewController.swift in Sources */,
 				126CA20C1FA173F00018E6C6 /* User-Item.swift in Sources */,
+				126CA2101FA175D80018E6C6 /* UserViewController.swift in Sources */,
 				126CA2081FA173B40018E6C6 /* Item.swift in Sources */,
+				126CA2161FA1795F0018E6C6 /* ItemsViewController.swift in Sources */,
 				120588FA1F97101C00614ADF /* ViewController.swift in Sources */,
+				126CA2141FA175FA0018E6C6 /* UsersViewController.swift in Sources */,
 				120588F81F97101C00614ADF /* AppDelegate.swift in Sources */,
 				126CA2061FA1738E0018E6C6 /* User.swift in Sources */,
 			);
